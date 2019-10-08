@@ -1,3 +1,5 @@
+/* Envio de mensaje a sigfox usando las librerias de NxtIoT*/
+
 #include <NXTIoT_dev.h>
 
 NXTIoT_dev  mysigfox;
@@ -11,7 +13,7 @@ void setup() {
 }
 
 void loop() {
-  
+/*El mensaje se envia al precionar el botón azúl de la placa*/  
   if (digitalRead(boton)==LOW)
   {
     
