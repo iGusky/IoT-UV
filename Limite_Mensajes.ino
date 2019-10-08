@@ -13,7 +13,7 @@ void setup() {
 }
 
 void loop() {
-/*Probamos si el limite de mensajes es 128/*
+/*Probamos si el limite de mensajes es 128*/
  int x=0;
 while(x<=127)
  {
